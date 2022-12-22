@@ -1,0 +1,45 @@
+@import "variables";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $fondo_gn;
+    font-family: 'Sanchez', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #6b3a28;
+}
+
+p {
+    color: $color_text;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+h2 {
+    color: $color_text;
+    padding: 13px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Sanchez', serif;
+}
+
+h1 {
+    @extend h2;
+    margin-top: 20px;
+    text-transform: uppercase;
+}

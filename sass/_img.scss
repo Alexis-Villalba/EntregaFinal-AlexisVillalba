@@ -1,0 +1,44 @@
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.img-historias1,
+.img-historias2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-formulario {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inicio-conjunto-img {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.img-inicio1,
+.img-inicio2,
+.img-inicio3,
+.img-inicio4 {
+    height: 85%;
+    width: 92%;
+    border: none;
+    pad: 10px;
+}
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+}
